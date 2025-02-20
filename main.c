@@ -203,3 +203,5 @@ void traffic_control(void *pvParameter) {
 void app_main(void) {
     xTaskCreate(traffic_control, "traffic_ctrl", 4096, NULL, 5, NULL);  // Cria a tarefa para controlar o tráfego
 }
+
+//by chatgpt, deepseek, Samuel e grupo
